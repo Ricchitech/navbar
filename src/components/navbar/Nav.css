@@ -1,0 +1,42 @@
+.nav{
+    margin:22px;
+    //border-bottom:1px solid #ccc;
+}
+
+.button{
+    font-size:20px;
+    color:green;
+    border-radius: 8px;
+    width:150px;
+}
+
+.signin{
+  //border-right: 1px solid gray;
+}
+
+.signup{
+   //background-color: #9BD08F;
+   //color: white;
+   color:green;
+}
+
+.btn:hover{
+    background-color: #9BD08F;
+    color: white;
+}
+
+.icon-links{
+    color: black;
+}
+
+.icon-links:hover{
+    color: green;
+}
+
+.logo1 img{
+    -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}

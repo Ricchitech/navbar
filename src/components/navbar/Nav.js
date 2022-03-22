@@ -1,20 +1,27 @@
 import React from 'react'
-import logo from "../images/logo.svg";
+import logo from "../../images/logo.svg";
 import { RiFeedbackLine } from "react-icons/ri";
 import { FiSettings } from "react-icons/fi";
 import { BsQuestionCircle } from "react-icons/bs";
+import { Link } from "react-router-dom";
 import "./Nav.css";
 
 function Nav() {
   return (
     <>
       <div className="nav d-flex justify-content-between">
-        <div className="logo">
-          <img src={logo} />
+        <div className="logo1">
+          <Link to="/">
+            <img src={logo} />
+          </Link>
         </div>
         <div className="signbuttons">
-          <button className="button signin btn m-2">Sign In</button>
-          <button className="button signup btn m-2">Sign Up</button>
+          <Link to="/signin">
+            <button className="button signin btn m-2">Sign In</button>
+          </Link>
+          <Link to="/signup">
+            <button className="button signup btn m-2">Sign Up</button>
+          </Link>
         </div>
         <div className="fun-icons">
           <a className="icon-links" href="#">
