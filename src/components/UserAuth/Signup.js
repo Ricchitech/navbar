@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import "../signin/Signin.css";
+//import "./UserAuth.css";
 import { FcGoogle } from "react-icons/fc";
 import logo from "../../images/left_background.svg";
-import footerlogo from "../../images/ziroh-logo.png";
 import { FaRegEye } from "react-icons/fa";
 
 function Signup() {
@@ -21,9 +20,6 @@ function Signup() {
     console.log("Google login");
   };
 
-  const checksignin = (response) => {
-    console.log("Stay Signed in!!");
-  };
 
   return (
     <>
